@@ -1,16 +1,22 @@
 {
-  "sanction": "ban",
+  "sanction": "kick",
   "dmSpammer": false,
   "dmMessage": "You've been banned from {server} beceause you're using a selfbot against Discord TOS.",
 
   "botStatus": "Catching spammers for {user_count} members",
 
-  "bannedStatuses": [
-    {
-      "search": "EQUAL",
+  "bannedStatuses": {
+    "status1": {
+      "search": "EQUAL", 
       "type": "WATCHING",
       "name": "github.com/hoemotion",
-      "description": ""
+      "description": "",
+    },
+    "status2": {
+      "search": "CONTAINS",
+      "type": "It can be WATCHING, STREAMING, PLAYING, LISTENING",
+      "name": "ig. for a spotify music it can be the stream, music, game title or classic custom status",
+      "description": "ig. for a spotify music it can be the artist and the album etc",
     }
-  ]
+  }
 }
