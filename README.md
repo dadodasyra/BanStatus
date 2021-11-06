@@ -9,26 +9,26 @@ The list is available in the config.json file at root of the bot.
 
 ### Configuration
 Default config
-```json
+```yaml
 {
   "sanction": "kick", //Here you can choose between kick or ban
   "dmSpammer": false, //Choose if you want to send a dm to the user who used status
-  "dmMessage": "You've been banned from {server} beceause you're using a selfbot against Discord TOS.", //The msg sended if dmSpammer is true
+  "dmMessage": "You've been banned from {server} beceause you're using a selfbot against Discord TOS.",
 
   "botStatus": "Catching spammers for {user_count} members", //The bot status
 
   "bannedStatuses": { //An array who contains the banned statuses
     "status1": {
-      "search": "EQUAL", //Choose between EQUAL or INCLUDE/CONTAINS
+      "search": "EQUAL", //Choose between EQUAL or CONTAINS
       "type": "WATCHING", //Status type (WATCHING, STREAMING, PLAYING, LISTENING, CUSTOM)
-      "name": "github.com/hoemotion", //Status name
-      "description": "This is ignored because check.description is currently false.", //Status description
+      "name": "github.com/hoemotion",
+      "description": "This is ignored because check.description is currently false.",
     },
     "status2": {
-      "search": "INCLUDE",
-      "type": "It can be WATCHING, STREAMING, PLAYING, LISTENING, custom statuses aren't here, you must desactivate type and type Custom Status in name case",
-      "name": "This is the name of the status, ig. for a spotify music it can be the music title, a twitch stream name, a game name etc",
-      "description": "This is the description of the status, ig. for a spotify music it can be the artist and the album etc",
+      "search": "CONTAINS",
+      "type": "It can be WATCHING, STREAMING, PLAYING, LISTENING",
+      "name": "ig. for a spotify music it can be the stream, music, game title or classic custom status",
+      "description": "ig. for a spotify music it can be the artist and the album etc",
     } //If you want to not check something, just leave it empty or remove the variable
   }
 }
