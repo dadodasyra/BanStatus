@@ -1,0 +1,16 @@
+{
+  "sanction": "ban",
+  "dmSpammer": false,
+  "dmMessage": "You've been banned from {server} beceause you're using a selfbot against Discord TOS.",
+
+  "botStatus": "Catching spammers for {user_count} members",
+
+  "bannedStatuses": [
+    {
+      "search": "EQUAL",
+      "type": "WATCHING",
+      "name": "github.com/hoemotion",
+      "description": ""
+    }
+  ]
+}
