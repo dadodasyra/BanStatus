@@ -2,7 +2,8 @@
 ### Introduction
 This bot allows you to ban discord statuses.
 You can configure the bot to ban a status if it is in the list of banned statuses.
-The list is available in the config.json file at root of the bot.
+
+You need to configure config.json and hidden.json before starting the bot.
 
 ### A bot who use it 
 [BanSpammers](https://discord.com/api/oauth2/authorize?client_id=906170850217185281&permissions=2147486726&scope=bot) who ban user using the [Mass-DM-discord repository](https://github.com/hoemotion/mass-dm-discord). People with 'github.com/hoemotion' in their status are banned.
