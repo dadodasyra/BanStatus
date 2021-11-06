@@ -22,7 +22,7 @@ Default config
       "search": "EQUAL", //Choose between EQUAL or CONTAINS
       "type": "WATCHING", //Status type (WATCHING, STREAMING, PLAYING, LISTENING, CUSTOM)
       "name": "github.com/hoemotion",
-      "description": "This is ignored because check.description is currently false.",
+      "description": "",
     },
     "status2": {
       "search": "CONTAINS",
